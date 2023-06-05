@@ -1,0 +1,23 @@
+:root{
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #34344e;
+    --dark3: #566961;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --cyan: #70e3ea;
+}
+/* Reset do CSS - todos seletores*/
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+    background-color: var(--dark1);
+    color: var(--dark4);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: var(--cyan);
+}
